@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.4f1 (99ba6aa4c552) revision 10074730'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64353
+Successfully changed project path to: C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mcvan/Documents/GitHub/CatFish/cheryl/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006962 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (554ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011988 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1069ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (114.9 KB). Loaded Objects now: 4403.
+Memory consumption went from 141.0 MB to 140.8 MB.
+Total: 2.775100 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.259500 ms MarkObjects: 2.078800 ms  DeleteObjects: 0.090700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44782.008556 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/eyelash_d.png
+  artifactKey: Guid(dd2c542d188f7174ea2e11e92ba52143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/eyelash_d.png using Guid(dd2c542d188f7174ea2e11e92ba52143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7287bf9cb86fca71159e675576c8024e') in 0.136961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_BC.png
+  artifactKey: Guid(070c8c9ae4b68a340bdc0ea858270638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_BC.png using Guid(070c8c9ae4b68a340bdc0ea858270638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f1c7dddae49d1a33a1d50da9d333c8') in 0.016919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_S.png
+  artifactKey: Guid(4795435dcc0ddea49b40b9b9bf8ed9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_S.png using Guid(4795435dcc0ddea49b40b9b9bf8ed9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87207c275068087380acb46d69f2d3d2') in 0.016027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_BC.png
+  artifactKey: Guid(8028b85b299b2c14f853f08932306333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_BC.png using Guid(8028b85b299b2c14f853f08932306333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232903c0e8e5a5d9a075a89b07ffd386') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_04_BC.png
+  artifactKey: Guid(e3ca8a35f00f930489b87c58df1d6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_04_BC.png using Guid(e3ca8a35f00f930489b87c58df1d6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96be97da21b7e2b025588365afc308c') in 0.021104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_S.png
+  artifactKey: Guid(c783ce1e83b21ab43ab7bdd10339d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_S.png using Guid(c783ce1e83b21ab43ab7bdd10339d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b04af2b17fbb2b64500a5cde90b8a9') in 0.011853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_03_S.png
+  artifactKey: Guid(dbe55753cdb0d6840a318b288c55005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_03_S.png using Guid(dbe55753cdb0d6840a318b288c55005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd0ecfa919d3209517fee3f52e78a43') in 0.011624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_BC.png
+  artifactKey: Guid(df1e71d90ba13d948aeb2af824eed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_BC.png using Guid(df1e71d90ba13d948aeb2af824eed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec977ec1762271a5ddad7004702efee7') in 0.011654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_BC.png
+  artifactKey: Guid(0a68b221e64502046aa91d7050334ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_BC.png using Guid(0a68b221e64502046aa91d7050334ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed6ef87c9e9a508a9022c92afdea506') in 0.010806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_03_N.png
+  artifactKey: Guid(aeefc6812dd838c488ac62cec182db05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_CMMHair_03_N.png using Guid(aeefc6812dd838c488ac62cec182db05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1987add5a36a67cad126b5873d0373') in 0.012885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_S.png
+  artifactKey: Guid(de0798e739c678d4b85996c1a8af5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_S.png using Guid(de0798e739c678d4b85996c1a8af5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33b6f245cc9e5fd314f6bd3fda1578d') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_N.png
+  artifactKey: Guid(0af173f19608bdb41a002c1fdcc3e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_N.png using Guid(0af173f19608bdb41a002c1fdcc3e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4931e770df27f0a9279ef34f8c77550') in 0.012100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.903171 seconds.
+  path: Assets/Materials/hands.mat
+  artifactKey: Guid(f1d70aef0a5702e42a728130b374712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/hands.mat using Guid(f1d70aef0a5702e42a728130b374712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d90937725b7063edbb774e1f1a0c2') in 0.065692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/legs.mat
+  artifactKey: Guid(35893f70f12681f46b32587c6a13d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/legs.mat using Guid(35893f70f12681f46b32587c6a13d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44a5cbee3b24f387e812946de569e4c') in 0.016720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/sweater.mat
+  artifactKey: Guid(9cb1dc2903c2e79458fb3f53bae7ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sweater.mat using Guid(9cb1dc2903c2e79458fb3f53bae7ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb8f24f1fa4a942e82890cce0636841') in 0.013380 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

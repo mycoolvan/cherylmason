@@ -1,0 +1,238 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.4f1 (99ba6aa4c552) revision 10074730'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55217
+Successfully changed project path to: C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 72.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mcvan/Documents/GitHub/CatFish/cheryl/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006940 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (527ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (114.3 KB). Loaded Objects now: 4403.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 2.288300 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.199800 ms MarkObjects: 1.766600 ms  DeleteObjects: 0.081200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48643.947685 seconds.
+  path: Assets/u3ntitled.fbx
+  artifactKey: Guid(01bdf5f4da845c243ab5d43024bd3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/u3ntitled.fbx using Guid(01bdf5f4da845c243ab5d43024bd3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55673fbdd88ae4e49755c75297d73154') in 0.273834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.627832 seconds.
+  path: Assets/cheryl1.prefab
+  artifactKey: Guid(bb812cfef702c214fb6e7d229e875442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.prefab using Guid(bb812cfef702c214fb6e7d229e875442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e91e8b5f31c3df0eae5d4c52322191') in 0.084445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.454286 seconds.
+  path: Assets/cheryl1.BlendShapes/A.asset
+  artifactKey: Guid(17484c3a1260d2048816e3b8dad12179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/A.asset using Guid(17484c3a1260d2048816e3b8dad12179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bf956a05765c2d186f19c203053b4d') in 0.009170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/cheryl1.BlendShapes/Fun.asset
+  artifactKey: Guid(60187d23d5abe6a4093adc50baa9183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/Fun.asset using Guid(60187d23d5abe6a4093adc50baa9183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ee04c9b18f538b324446971f28efec') in 0.002433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/cheryl1.BlendShapes/U.asset
+  artifactKey: Guid(68f23b2a060409d41814ecf86afdea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/U.asset using Guid(68f23b2a060409d41814ecf86afdea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a549dc72158d9e20a9678d461b7ca4') in 0.006441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/cheryl1.BlendShapes/Neutral.asset
+  artifactKey: Guid(fe9653c199e52d24fa314e671cd430b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/Neutral.asset using Guid(fe9653c199e52d24fa314e671cd430b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90010c5f5a076f067e9486e2a21f96f') in 0.007318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cheryl1.BlendShapes/Blink_L.asset
+  artifactKey: Guid(9cdae9872cf1e2f40aa1ac9b5731458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/Blink_L.asset using Guid(9cdae9872cf1e2f40aa1ac9b5731458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a3e821743b470fcf6e3e150cbc98d4') in 0.007285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/cheryl1.BlendShapes/LookRight.asset
+  artifactKey: Guid(eb79ae43dc976eb4299f4049dd108e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/LookRight.asset using Guid(eb79ae43dc976eb4299f4049dd108e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711fba4217b253fde3bedb8b616085c2') in 0.007960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/cheryl1.BlendShapes/BlendShape.asset
+  artifactKey: Guid(d1e8ef52099713a4f80e4a802305f784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/BlendShape.asset using Guid(d1e8ef52099713a4f80e4a802305f784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965605376b296bae3f7e3f45748d5dca') in 0.007456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/cheryl1.BlendShapes/E.asset
+  artifactKey: Guid(92132dfa4bbc1c642a4367c3cd817771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/E.asset using Guid(92132dfa4bbc1c642a4367c3cd817771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4bf22a241ef803abd88cb9f3a1148') in 0.002031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/cheryl1.BlendShapes/LookLeft.asset
+  artifactKey: Guid(d4cf9c5d6972c1a4486e98f600fef75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/LookLeft.asset using Guid(d4cf9c5d6972c1a4486e98f600fef75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe53d80983370ade3e3f2b516ffbc4') in 0.006066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/cheryl1.BlendShapes/I.asset
+  artifactKey: Guid(75fa003ed97acfa40a70a83e940781a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/I.asset using Guid(75fa003ed97acfa40a70a83e940781a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e36ce7ad0063543c5bcf719eccc798') in 0.005319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cheryl1.BlendShapes/Blink_R.asset
+  artifactKey: Guid(2346af1ed4b572041beaa2ea12adee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl1.BlendShapes/Blink_R.asset using Guid(2346af1ed4b572041beaa2ea12adee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1913f085d088ca81e1b185213fa1976e') in 0.001856 seconds 

@@ -1,0 +1,426 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.4f1 (99ba6aa4c552) revision 10074730'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64353
+Successfully changed project path to: C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+C:/Users/mcvan/Documents/GitHub/CatFish/cheryl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 81.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mcvan/Documents/GitHub/CatFish/cheryl/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007379 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mcvan\Documents\GitHub\CatFish\cheryl\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (189ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (114.9 KB). Loaded Objects now: 4403.
+Memory consumption went from 141.0 MB to 140.8 MB.
+Total: 3.503600 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.989100 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44781.068780 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/test.png
+  artifactKey: Guid(02a175e4dd623e94dabd353b3c9a5b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/test.png using Guid(02a175e4dd623e94dabd353b3c9a5b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729373b4f44ba3726878e2c8c7cb515c') in 0.092389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.842788 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/Gen_Eye_Env.png
+  artifactKey: Guid(47c2f961f283c2941a7c9b7d420fd136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/Gen_Eye_Env.png using Guid(47c2f961f283c2941a7c9b7d420fd136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4024d4d109418c798c91b0498356c8') in 0.016459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_l.png
+  artifactKey: Guid(17de7e05cada0504fa0562578dbe2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_l.png using Guid(17de7e05cada0504fa0562578dbe2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83166dfba836202cc6fbc41a84a2854') in 0.016391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_L.png
+  artifactKey: Guid(82ac4970175a47a40ac5e02f65e2366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_L.png using Guid(82ac4970175a47a40ac5e02f65e2366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918ad2f8ed0926c7c0fd7697642678b') in 0.013381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_l.png
+  artifactKey: Guid(3c8ca2dda87db9041b4224030b64f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_l.png using Guid(3c8ca2dda87db9041b4224030b64f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e1ba36a97e0462c05e9a1285e421e9') in 0.017410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_N.png
+  artifactKey: Guid(4ea3221fa63ddc244989533565f5a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_N.png using Guid(4ea3221fa63ddc244989533565f5a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c985e900f3cc6cc806e7e49672da234') in 0.015148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_BC.png
+  artifactKey: Guid(81bf84eab714e994c9811e9d35e4254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_BC.png using Guid(81bf84eab714e994c9811e9d35e4254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fa89c4c83cd4e05ca432b337a86c47') in 0.012006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_N.png
+  artifactKey: Guid(2bf379bf68e0ce74883f9fab20238e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_N.png using Guid(2bf379bf68e0ce74883f9fab20238e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b65497be51bda072075929a91776806') in 0.013315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_L.png
+  artifactKey: Guid(d06adc6371871c149974124b0effa0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Shead00_L.png using Guid(d06adc6371871c149974124b0effa0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a61087d866b750ff1b166c60d758d92') in 0.014407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_s.png
+  artifactKey: Guid(f4506d998d29672429a3e5a70ad9c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_s.png using Guid(f4506d998d29672429a3e5a70ad9c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d28544c8f3fd84c64e630c7dc9707f') in 0.011656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_L.png
+  artifactKey: Guid(1e64d019fa7361a4c95eada1653fd505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_L.png using Guid(1e64d019fa7361a4c95eada1653fd505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b025072e033cdbb5643cb08be18767ae') in 0.012233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_BC.png
+  artifactKey: Guid(72802ac80f172a5468b70607bf0b37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs01_BC.png using Guid(72802ac80f172a5468b70607bf0b37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d1cd36ef2ae6b095409d469177eebb') in 0.015066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_L.png
+  artifactKey: Guid(5379f9eaed208c147bebc031458e2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_L.png using Guid(5379f9eaed208c147bebc031458e2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c5af863a6c6bb23d9aa12fa1754d7') in 0.012129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_N.png
+  artifactKey: Guid(fea71bcbb5ac05345bfc41c2e06a5627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Pants02_N.png using Guid(fea71bcbb5ac05345bfc41c2e06a5627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14962ad343c9e940fba303929f7fa750') in 0.014093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_N.png
+  artifactKey: Guid(9435193362021d14382a054078e3c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_N.png using Guid(9435193362021d14382a054078e3c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10311da207f13606a1d831cc6c46bfd3') in 0.012445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_S.png
+  artifactKey: Guid(18779dcaa34b88e4eaeb32c0bce2c171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Legs00_S.png using Guid(18779dcaa34b88e4eaeb32c0bce2c171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bd4c3ca1a5c8eb79646a3193f2b820') in 0.013172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/lightmap_white.png
+  artifactKey: Guid(abf01fad5d6a6fc4e8b548aeb7d89c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/lightmap_white.png using Guid(abf01fad5d6a6fc4e8b548aeb7d89c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa37b74360a30279a5e8dff779e1a5b1') in 0.009656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_N.png
+  artifactKey: Guid(b94990734d66fe14aa2f85aa6c4ce46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso00_N.png using Guid(b94990734d66fe14aa2f85aa6c4ce46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9fdda4ff1f3ae8f903ebb2fb0aff19') in 0.012115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_S.png
+  artifactKey: Guid(3f6c9fc6870c9554ea52638e112429be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/T_S22Torso009_S.png using Guid(3f6c9fc6870c9554ea52638e112429be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494f4f69d098f0fdbc88b82b26383d8') in 0.012148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dead By Daylight - Cheryl Mason Christmas sweater/prev.png
+  artifactKey: Guid(330514d84311d914ab807a2a2735e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dead By Daylight - Cheryl Mason Christmas sweater/prev.png using Guid(330514d84311d914ab807a2a2735e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122559e3173f33582e1aac54663b79c2') in 0.010203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.893339 seconds.
+  path: Assets/Materials/head.mat
+  artifactKey: Guid(24d2ec4a53f6112449ce3638cd81f80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/head.mat using Guid(24d2ec4a53f6112449ce3638cd81f80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27b8bcb45d638377b7c6e3c6429b8cf') in 0.066050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/lashes.mat
+  artifactKey: Guid(9fc108d1f559e7744b125ecdbe79a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lashes.mat using Guid(9fc108d1f559e7744b125ecdbe79a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978643f7c43b44b55a84ce88499e63c') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/skirt.mat
+  artifactKey: Guid(a34cbe1cc961f254ba46aac0cd623de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skirt.mat using Guid(a34cbe1cc961f254ba46aac0cd623de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74446982288719fb2f756c09fbdd451d') in 0.015313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.971821 seconds.
+  path: Assets/cheryl.BlendShapes/Angry.asset
+  artifactKey: Guid(0904694b6eed510479710b84fb20484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/Angry.asset using Guid(0904694b6eed510479710b84fb20484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a970b584e36968e4a8bc2112737dc') in 0.010098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/cheryl.BlendShapes/Blink.asset
+  artifactKey: Guid(4ba1ce39d3823cb41a217f0af3a1478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/Blink.asset using Guid(4ba1ce39d3823cb41a217f0af3a1478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c038c11eea5030cc8d823be746c0d0d0') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/cheryl.BlendShapes/Neutral.asset
+  artifactKey: Guid(b338e9d00a18992489d438dd27085649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/Neutral.asset using Guid(b338e9d00a18992489d438dd27085649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbe2e25f48f8f00b1dc3f8d31098e3c') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/cheryl.BlendShapes/Joy.asset
+  artifactKey: Guid(e433a2eab1e6d6f4c8fe52b1b5f66bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/Joy.asset using Guid(e433a2eab1e6d6f4c8fe52b1b5f66bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d77b2f31203227d718e0e08552d32') in 0.005700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/cheryl.BlendShapes/BlendShape.asset
+  artifactKey: Guid(cac671b3fe9c2be448eab823ff73c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/BlendShape.asset using Guid(cac671b3fe9c2be448eab823ff73c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9488c2cb8c02d6e9561c8c7513a79380') in 0.009181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/cheryl.BlendShapes/Fun.asset
+  artifactKey: Guid(5357b8cd97947d741ab3a6e93fd96635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/Fun.asset using Guid(5357b8cd97947d741ab3a6e93fd96635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64e02d4622652596bbf87fe52c86ba') in 0.005869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/cheryl.BlendShapes/U.asset
+  artifactKey: Guid(824d2b00a464bc343b8658c32d01f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/U.asset using Guid(824d2b00a464bc343b8658c32d01f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1664a3d6cea8299fa686a42e2c7ab877') in 0.004843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/cheryl.BlendShapes/I.asset
+  artifactKey: Guid(07a6cbbb8f7e16f439bec0ee084fe24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/I.asset using Guid(07a6cbbb8f7e16f439bec0ee084fe24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999700771da8e651c5c390ac4418886e') in 0.006404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/cheryl.BlendShapes/O.asset
+  artifactKey: Guid(69510f250cfd3ed44a9b89f04af7cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.BlendShapes/O.asset using Guid(69510f250cfd3ed44a9b89f04af7cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b235256e8bfb4da5790d8bc94ba30493') in 0.005502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.350311 seconds.
+  path: Assets/UniGLTF/Samples/ScreenSpace/a.mat
+  artifactKey: Guid(17618f7c446af114e8ac672f1e992954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Samples/ScreenSpace/a.mat using Guid(17618f7c446af114e8ac672f1e992954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b201f4cadb161ea870f75e213257fb') in 0.015641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/cheryl.Materials/hands.asset
+  artifactKey: Guid(785a7c510f98e9d4cbda65486a787010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/hands.asset using Guid(785a7c510f98e9d4cbda65486a787010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc312bcd75c93ccad81a312866f235b') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/ballroom_1k.mat
+  artifactKey: Guid(5f6d4071e6e6b414c8ebdced2f05b4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/ballroom_1k.mat using Guid(5f6d4071e6e6b414c8ebdced2f05b4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bfe2c32bb0dcc14393e6ddf4f58f03') in 0.015632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/cheryl.Materials/lashes.asset
+  artifactKey: Guid(9250da358ded0b646a748a0206992851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/lashes.asset using Guid(9250da358ded0b646a748a0206992851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68d362c323a5e9b01825bfa9e0eb3f1') in 0.014012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.mat
+  artifactKey: Guid(92cbb1b9f5255824da58de282d5aecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.mat using Guid(92cbb1b9f5255824da58de282d5aecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1167ee855fae2e186350fc1796e3107') in 0.016621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/cheryl.Materials/lambert2.asset
+  artifactKey: Guid(0885c1fedc404014ea18b3fc5278d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/lambert2.asset using Guid(0885c1fedc404014ea18b3fc5278d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d7f06b329e681f24c3c628ca2d6f51') in 0.014512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/VRCSDK/Dependencies/VRChat/Materials/damageGrey.mat
+  artifactKey: Guid(2166f6bbfce69594fad494087eca58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCSDK/Dependencies/VRChat/Materials/damageGrey.mat using Guid(2166f6bbfce69594fad494087eca58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f43bd2ef440d7c1e2ee7586f7339998') in 0.015105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/cheryl.Materials/legs.asset
+  artifactKey: Guid(7589aac739f881045addae884c7a05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/legs.asset using Guid(7589aac739f881045addae884c7a05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458b65e7a539c9d9aa1d3d0f6b40b4eb') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cheryl.Materials/skirt.asset
+  artifactKey: Guid(7758ef275b0837540b0b2f94520d4f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/skirt.asset using Guid(7758ef275b0837540b0b2f94520d4f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b21ddc75567bc10238d89888dcaed8') in 0.012258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/cheryl.Materials/sweater.asset
+  artifactKey: Guid(f189a4cf45b8bb24fad1af4d9ae09fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/sweater.asset using Guid(f189a4cf45b8bb24fad1af4d9ae09fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5893f0b1d4d04b384719200bfdb50c9') in 0.011604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/cheryl.Materials/hair.asset
+  artifactKey: Guid(3c8d3a644ba500648919cde5db8d0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Materials/hair.asset using Guid(3c8d3a644ba500648919cde5db8d0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6affe8778b19f023792040708d01ed3') in 0.015581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.061863 seconds.
+  path: Assets/cheryl.Avatar/VrmAvatar.asset
+  artifactKey: Guid(f43cedd077ad2d647b5cbafa747e472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cheryl.Avatar/VrmAvatar.asset using Guid(f43cedd077ad2d647b5cbafa747e472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba8cbc528f3592cfb6b7d250be6b00c') in 0.006673 seconds 
